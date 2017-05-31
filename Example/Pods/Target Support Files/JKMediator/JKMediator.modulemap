@@ -1,0 +1,6 @@
+framework module JKMediator {
+  umbrella header "JKMediator-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "JKMediator",
+  "version": "0.1.0",
+  "summary": "A short description of JKMediator.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/liuweiqiang/JKMediator",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liuweiqiang": "liuweiqiang@jianke.com"
+  },
+  "source": {
+    "git": "https://github.com/liuweiqiang/JKMediator.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JKMediator/Classes/**/*"
+}
