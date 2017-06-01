@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name = 'JKMediator'
-s.version = '0.1.0'
+s.version = '0.1.1'
 s.license = 'MIT'
 s.summary = 'Simple NetWorking Kit'
 s.homepage = 'https://github.com/lwq718691587/JKMediator'
