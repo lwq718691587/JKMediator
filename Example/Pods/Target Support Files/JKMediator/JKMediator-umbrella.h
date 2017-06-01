@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "LAMediator.h"
 
 FOUNDATION_EXPORT double JKMediatorVersionNumber;
 FOUNDATION_EXPORT const unsigned char JKMediatorVersionString[];

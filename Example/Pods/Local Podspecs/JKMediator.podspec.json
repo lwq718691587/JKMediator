@@ -1,22 +1,19 @@
 {
   "name": "JKMediator",
   "version": "0.1.0",
-  "summary": "A short description of JKMediator.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/liuweiqiang/JKMediator",
-  "license": {
-    "type": "MIT",
-    "file": "LICENSE"
-  },
+  "license": "MIT",
+  "summary": "Simple NetWorking Kit",
+  "homepage": "https://github.com/lwq718691587/JKMediator",
   "authors": {
-    "liuweiqiang": "liuweiqiang@jianke.com"
+    "刘伟强": "718691587@qq.com"
   },
   "source": {
-    "git": "https://github.com/liuweiqiang/JKMediator.git",
+    "git": "https://github.com/lwq718691587/JKMediator.git",
     "tag": "0.1.0"
   },
+  "requires_arc": true,
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "JKMediator/Classes/**/*"
+  "source_files": "JKMediator/**/*"
 }

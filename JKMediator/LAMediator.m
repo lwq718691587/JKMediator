@@ -449,5 +449,27 @@ static inline id returnValue(NSInvocation * invocation) {
     return returnObject;
 }
 
+- (nullable id) revClass: (nonnull NSString *) className
+                  params: (nonnull NSDictionary *) params
+        mediatorCallback: (MediatorCallback _Nullable ) mediatorCallback {
+    
+    _mediatorCallback = mediatorCallback;
+    return [self revClass:className isStatic:false params:params];
+}
+
+- (nullable id) revClass: (nonnull NSString *) className
+                isStatic: (BOOL) isStatic
+                  params: (nonnull NSDictionary *) params
+                  object: (_Nullable id __strong * _Nullable) object
+        mediatorCallback: (MediatorCallback _Nullable ) mediatorCallback {
+    
+    _mediatorCallback = mediatorCallback;
+    return [self revClass:className isStatic:isStatic params:params object:object];
+}
+
+- (void) mediatorCallback:(NSDictionary *_Nullable) callbackResult {
+    if (_mediatorCallback) _mediatorCallback(callbackResult);
+}
+
 @end
 
