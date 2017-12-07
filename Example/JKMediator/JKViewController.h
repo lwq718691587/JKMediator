@@ -10,4 +10,6 @@
 
 @interface JKViewController : UIViewController
 
+- (void)testA:(NSString *)testA testB:(NSString *)testB;
+
 @end

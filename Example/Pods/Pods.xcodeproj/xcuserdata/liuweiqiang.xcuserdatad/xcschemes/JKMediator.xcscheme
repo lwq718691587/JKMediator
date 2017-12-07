@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '10E4834E610EEE7699DE1804677E8ADE'
+               BlueprintIdentifier = 'E8FD0B7BE49556805BAD61EEB99E1657'
                BlueprintName = 'JKMediator'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'JKMediator.framework'>
+               BuildableName = 'libJKMediator.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

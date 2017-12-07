@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B0FB32775D6B795F935402F /* Pods_JKMediator_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5302892A75DE4D88FFE0A9D /* Pods_JKMediator_Example.framework */; };
-		4C16AA162D552C65F59DAC80 /* Pods_JKMediator_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97FE4417A2A2D257B7F1D995 /* Pods_JKMediator_Tests.framework */; };
+		1C1D6E47E45A2CD1DE0529C0 /* libPods-JKMediator_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9795134521B235825E83EFC3 /* libPods-JKMediator_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -24,6 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		AF294E1078F0CFD37178A986 /* libPods-JKMediator_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F98C33BF72DC6271C76DC6E /* libPods-JKMediator_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,12 +61,12 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77881F053052354DC50792B1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7D3009CB7D4056812A46A6E0 /* JKMediator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JKMediator.podspec; path = ../JKMediator.podspec; sourceTree = "<group>"; };
+		7F98C33BF72DC6271C76DC6E /* libPods-JKMediator_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JKMediator_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		97FE4417A2A2D257B7F1D995 /* Pods_JKMediator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JKMediator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9795134521B235825E83EFC3 /* libPods-JKMediator_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JKMediator_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A70DB49907697ED90EF66ACC /* Pods-JKMediator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKMediator_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JKMediator_Tests/Pods-JKMediator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D5F1D1C2C3BE9218D0227868 /* Pods-JKMediator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKMediator_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JKMediator_Tests/Pods-JKMediator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E2B08719B85105C5AFB2EBED /* Pods-JKMediator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKMediator_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JKMediator_Example/Pods-JKMediator_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E5302892A75DE4D88FFE0A9D /* Pods_JKMediator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JKMediator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				1B0FB32775D6B795F935402F /* Pods_JKMediator_Example.framework in Frameworks */,
+				1C1D6E47E45A2CD1DE0529C0 /* libPods-JKMediator_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				4C16AA162D552C65F59DAC80 /* Pods_JKMediator_Tests.framework in Frameworks */,
+				AF294E1078F0CFD37178A986 /* libPods-JKMediator_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +134,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				E5302892A75DE4D88FFE0A9D /* Pods_JKMediator_Example.framework */,
-				97FE4417A2A2D257B7F1D995 /* Pods_JKMediator_Tests.framework */,
+				9795134521B235825E83EFC3 /* libPods-JKMediator_Example.a */,
+				7F98C33BF72DC6271C76DC6E /* libPods-JKMediator_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -318,13 +318,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JKMediator_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		29495CF0B2E5985DDD3CA2D3 /* [CP] Check Pods Manifest.lock */ = {
@@ -333,13 +336,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JKMediator_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		31A9EE6C811CA0B1DDA61570 /* [CP] Copy Pods Resources */ = {
@@ -378,9 +384,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JKMediator_Example/Pods-JKMediator_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JKMediator/JKMediator.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JKMediator.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
